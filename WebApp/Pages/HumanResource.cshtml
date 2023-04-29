@@ -1,0 +1,12 @@
+@page
+@model WebApp.Pages.HumanResourceModel
+@{
+    ViewData["Title"] = "HumanResource";
+}
+
+<h1>Human Resource</h1>
+<p>Welcome to Human Resource!</p>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

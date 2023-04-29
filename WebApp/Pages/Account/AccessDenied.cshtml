@@ -1,0 +1,12 @@
+@page
+@model WebApp.Pages.Account.AccessDeniedModel
+@{
+    ViewData["Title"] = "AccessDenied";
+}
+
+<h1>Access Denied</h1>
+<p>No access to this page</p>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
